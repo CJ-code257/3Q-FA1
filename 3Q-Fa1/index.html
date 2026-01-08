@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>Welcome to my simple calculator page!</h2>
+<p id="numbers"></p>
+<p id="result"></p>
+<script>
+// Step 1: Get two numbers using prompt
+let num1 = Number(prompt("Enter the first number:"));
+let num2 = Number(prompt("Enter the second number:"));
+// Step 2: Perform operations
+let sum = num1 + num2;
+let diff = num1 - num2;
+let multi = num1 * num2;
+let division = num1 / num2;
+let modulo = num1 % num2;
+
+
+//sum
+// Step 3: Display numbers and results using document.write()
+// Display the numbers
+document.write("Numbers: " + num1 + " and " + num2);
+document.write("<br>");
+// Display the sum
+document.write("Sum: " + sum);
+document.write("<br>");
+// Step 4: Display results using innerHTML
+// Display the numbers
+document.getElementById("numbers").innerHTML =
+ "Numbers: " + num1 + " and " + num2 + "<br>";
+// Display the sum
+document.getElementById("result").innerHTML =
+ "Sum: " + sum + "<br>";
+
+// diff
+// Step 3: Display numbers and results using document.write()
+// Display the numbers
+document.write("Numbers: " + num1 + " and " + num2);
+document.write("<br>");
+// Display the sum
+document.write("Difference: " + diff);
+document.write("<br>");
+// Step 4: Display results using innerHTML
+// Display the numbers
+document.getElementById("numbers").innerHTML =
+ "Numbers: " + num1 + " and " + num2 + "<br>";
+// Display the sum
+document.getElementById("result").innerHTML =
+ "Difference: " + diff + "<br>";
+
+
+ //multi
+ // Step 3: Display numbers and results using document.write()
+// Display the numbers
+document.write("Numbers: " + num1 + " and " + num2);
+document.write("<br>");
+// Display the sum
+document.write("multiplication: " + multi);
+document.write("<br>");
+// Step 4: Display results using innerHTML
+// Display the numbers
+document.getElementById("numbers").innerHTML =
+ "Numbers: " + num1 + " and " + num2 + "<br>";
+// Display the sum
+document.getElementById("result").innerHTML =
+ "multiplication: " + multi + "<br>";
+
+
+ //division
+ // Step 3: Display numbers and results using document.write()
+// Display the numbers
+document.write("Numbers: " + num1 + " and " + num2);
+document.write("<br>");
+// Display the sum
+document.write("quotient: " + division);
+document.write("<br>");
+// Step 4: Display results using innerHTML
+// Display the numbers
+document.getElementById("numbers").innerHTML =
+ "Numbers: " + num1 + " and " + num2 + "<br>";
+// Display the sum
+document.getElementById("result").innerHTML =
+ "quotient: " + division + "<br>";
+
+
+
+ //modulo
+ // Step 3: Display numbers and results using document.write()
+// Display the numbers
+document.write("Numbers: " + num1 + " and " + num2);
+document.write("<br>");
+// Display the sum
+document.write("remainder: " + modulo);
+document.write("<br>");
+// Step 4: Display results using innerHTML
+// Display the numbers
+document.getElementById("numbers").innerHTML =
+ "Numbers: " + num1 + " and " + num2 + "<br>";
+// Display the sum
+document.getElementById("result").innerHTML =
+ "remainder: " + modulo + "<br>";
+</script>
+</body>
+</html>
